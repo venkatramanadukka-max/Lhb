@@ -1,0 +1,6 @@
+{
+  "name": "LHB Bogie Manual",
+  "description": "Comprehensive maintenance manual, interactive 3D component diagram, and troubleshooting guides for LHB/FIAT bogies of Indian Railways.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

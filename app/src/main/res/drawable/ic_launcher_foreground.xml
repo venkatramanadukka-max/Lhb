@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Train Wheel Rim -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:pathData="M 54,48 m -22,0 a 22,22 0 1,1 44,0 a 22,22 0 1,1 -44,0" />
+
+    <!-- Inner Flange Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#B71C1C"
+        android:strokeWidth="2.5"
+        android:pathData="M 54,48 m -16,0 a 16,16 0 1,1 32,0 a 16,16 0 1,1 -32,0" />
+
+    <!-- Wheel Hub -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,48 m -6,0 a 6,6 0 1,1 12,0 a 6,6 0 1,1 -12,0" />
+
+    <!-- Spokes (Cross Shape) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:pathData="M 54,26 L 54,42 M 54,54 L 54,70 M 32,48 L 48,48 M 60,48 L 76,48" />
+
+    <!-- Rail Track Base Line -->
+    <path
+        android:strokeColor="#ECEFF1"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M 20,78 L 88,78" />
+
+    <!-- Rail Track Sleepers (Under) -->
+    <path
+        android:strokeColor="#B71C1C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 28,78 L 28,84 M 41,78 L 41,84 M 54,78 L 54,84 M 67,78 L 67,84 M 80,78 L 80,84" />
+</vector>
